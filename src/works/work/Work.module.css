@@ -1,0 +1,29 @@
+.work {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content {
+    width: 200px;
+    height: 200px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.see {
+
+    background-color: blanchedalmond;
+    padding: 5px;
+}
+
+.title {
+    background-color: #8be08b;
+}
+
+.description {
+    background-color: darkgray;
+}

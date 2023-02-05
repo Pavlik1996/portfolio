@@ -1,0 +1,22 @@
+.remote {
+    height: 30vh;
+    background-color: #fffeec;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: #8be08b;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.text {
+    background-color: blanchedalmond;
+    padding: 5px;
+}
