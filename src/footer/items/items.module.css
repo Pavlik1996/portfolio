@@ -2,3 +2,10 @@
   background-color: darkgray;
   width: 80px;
 }
+
+
+@media screen and (max-width: 690px) {
+  .items {
+    width: 35px;
+  }
+}

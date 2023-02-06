@@ -6,6 +6,10 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid;
 }
 
+@media screen and (max-width: 760px) {
+    .container {
+        justify-content: center;
+    }
+}

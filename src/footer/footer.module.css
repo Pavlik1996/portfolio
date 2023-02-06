@@ -22,3 +22,11 @@
     height: 70px;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 690px) {
+    .items {
+       width: 250px;
+        height: 35px;
+    }
+}
+

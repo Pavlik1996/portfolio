@@ -1,8 +1,6 @@
 .work {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
-
 }
 
 .content {
@@ -15,7 +13,6 @@
 }
 
 .see {
-
     background-color: blanchedalmond;
     padding: 5px;
 }
@@ -27,3 +24,10 @@
 .description {
     background-color: darkgray;
 }
+
+@media screen and (max-width: 760px) {
+    .work {
+        margin: 5px;
+    }
+}
+
