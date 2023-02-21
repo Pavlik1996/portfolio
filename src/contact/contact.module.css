@@ -1,35 +1,35 @@
 .contact {
-    height: 100vh;
-    background-color: #ffe2e2;
+  min-height: 100vh;
+  background-color: #ffe2e2;
 }
 
 .container {
-    height: 100%;
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    border: 1px solid;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid;
 }
 
 .contacts {
-    background-color: #8be08b;
-    padding: 5px;
+  background-color: #8be08b;
+  padding: 5px;
 }
 
 .interaction {
-    display: flex;
-    flex-direction: column;
-    border: 1px solid;
-    height: 30%;
-    width: 65%;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  height: 30%;
+  width: 65%;
+  justify-content: space-between;
 }
 
 .send {
-    background-color: darkcyan;
-    padding: 5px;
+  background-color: darkcyan;
+  padding: 5px;
 }
