@@ -1,6 +1,8 @@
 .footer {
   min-height: 30vh;
   background-color: #ebffe4;
+  display: flex;
+  align-items: center;
 }
 
 .container {

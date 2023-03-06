@@ -1,6 +1,8 @@
 .remote {
   min-height: 30vh;
   background-color: #fffeec;
+  display: flex;
+  align-items: center;
 }
 
 .container {
