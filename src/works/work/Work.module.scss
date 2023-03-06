@@ -1,0 +1,62 @@
+@import '../../common/styles/sass/variables.scss';
+@import '../../common/styles/sass/mixins.scss';
+
+.work {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: 760px) {
+        margin: 5px;
+
+    }
+
+    .content {
+        width: 320px;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: "";
+            background-color: black;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            opacity: 0.3;
+        }
+
+        .see {
+            border-radius: 10px;
+            background-color: $bgSecondColor;
+            opacity: 0.6;
+            border: 1px white solid;
+            padding: 5px;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            z-index: 1;
+        }
+
+    }
+
+    .workInfo {
+        padding: 20px;
+
+        .title {
+            @include text($fontFamily, 21px, 400, $primaryColor);
+            margin: 0;
+        }
+
+        .description {
+            @include text($fontFamily, 15px, 300, $textSeconfColor);
+        }
+
+    }
+
+}

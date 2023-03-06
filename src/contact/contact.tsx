@@ -7,11 +7,11 @@ export const Contact = () => {
             <div className={`${sContainer.container} ${s.container}`}>
                 <div className={s.contacts}>Контакты</div>
                 <div className={s.interaction}>
-                    <input/>
-                    <input/>
+                    <input type={'text'}/>
+                    <input type={'text'}/>
                     <textarea/>
                 </div>
-                <div className={s.send}>Отправить</div>
+                <button className={s.send}>Отправить</button>
             </div>
         </div>
     );

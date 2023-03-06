@@ -1,17 +1,31 @@
 import React from 'react';
-import s from './Works.module.css'
+import s from './Works.module.scss'
 import sContainer from '../common/styles/Container.module.css'
-import {Work} from "./work/Work";
+import { Work } from "./work/Work";
+import { Title } from '../common/component/title/Title';
+import jsImage from '../assets/images/javascript.svg'
+import reactImage from '../assets/images/reactjs.svg'
+import cat from '../assets/images/cat.jpg'
 
 
 export const Works = () => {
+
+    const FrontEnd = {
+        backgroundImage: `url(${cat})`
+    };
+
+    const BackEnd = {
+        backgroundImage: `url(${reactImage})`
+    };
+
+
     return (
         <div className={s.worksBlock}>
             <div className={`${sContainer.container} ${s.worksContainer}`}>
-                <h2>My works</h2>
+                <Title title={'My works'} />
                 <div className={s.works}>
-                    <Work title={'titleOne'} description={'desOne'}/>
-                    <Work title={'titleTwo'} description={'desTwo'}/>
+                    <Work style={FrontEnd} title={'Todo'} description={'loresadklfsdlfns dffklnsdf nsd f v'} />
+                    <Work style={FrontEnd} title={'Sotial network'} description={'desTwoiodsopgnd g sd'} />
                 </div>
             </div>
         </div>
