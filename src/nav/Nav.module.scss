@@ -1,0 +1,25 @@
+@import '../common/styles/sass/variables.scss';
+
+
+.nav {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    font-family: $fontFamily;
+    font-size: 15px;
+    user-select: none;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+}
+
+a:hover {
+    color: $primaryColor;
+    transition: all .3s;
+}
