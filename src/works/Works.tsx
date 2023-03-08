@@ -3,7 +3,6 @@ import s from './Works.module.scss'
 import sContainer from '../common/styles/Container.module.css'
 import { Work } from "./work/Work";
 import { Title } from '../common/component/title/Title';
-import jsImage from '../assets/images/javascript.svg'
 import reactImage from '../assets/images/reactjs.svg'
 import cat from '../assets/images/cat.jpg'
 

@@ -7,12 +7,14 @@ import {Works} from "./works/Works";
 import {Remote} from "./remote_work/remote";
 import {Contact} from "./contact/contact";
 import {Footer} from "./footer/footer";
+import { About } from './about/About';
 
 function App() {
     return (
         <div className="App">
             {/* <Header/> */}
             <Main/>
+            <About/>
             <Skills/>
             <Works/>
             <Remote/>

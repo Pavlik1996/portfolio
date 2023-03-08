@@ -10,10 +10,12 @@ export const Skills = () => {
             <div className={`${sContainer.container} ${s.skillsContainer}`}>
                 <Title title={'Skills'} />
                 <div className={s.skills}>
-                    <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicing elit.'} />
+                    <Skill title={'JS'} description={'Lorem ipsum dolor sit amet, consectetur adipisicindssdfsdf fssdfsdf dfssdf sdfsdfsdg elit.'} />
                     <Skill title={'TS'} description={'description'} />
                     <Skill title={'TS'} description={'description'} />
                     <Skill title={'TS'} description={'description'} />
+                    <Skill title={'REACT'} description={'description'} />
+                    <Skill title={'REACT'} description={'description'} />
                     <Skill title={'REACT'} description={'description'} />
                     <Skill title={'REACT'} description={'description'} />
                 </div>
