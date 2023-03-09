@@ -1,0 +1,28 @@
+@import '../../common/styles/sass/variables.scss';
+
+.container {
+    width: 40%;
+    margin: 10px 5px 5px 5px;
+    .info {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .rating {
+        background-color: #d6d6d6;;
+        height: 8px;
+        border-radius: 15px;
+        .filld {
+            z-index: 1;
+            background-color: $primaryColor;
+            height: 8px;
+            width: 91%;
+            border-radius: 15px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        width: 90%;
+
+      }
+}
+
