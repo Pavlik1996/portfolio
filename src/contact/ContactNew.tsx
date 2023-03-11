@@ -13,8 +13,8 @@ export const ContactNew = () => {
                 <Title title={'Get in Touch'} />
                 <div className={s.get}>
                     <div>
-                        ADDRESS
-                        <div>4th Floor, Plot No.22,</div>
+                        <h3 >ADDRESS</h3>
+                        <span>4th Floor, Plot No.22,</span>
                         <div>145 Murphy Canyon Rd.</div>
                         <div>San Diego CA 2028</div>
                         <div>(060) 444 434 444</div>
@@ -22,10 +22,10 @@ export const ContactNew = () => {
                         <div>chat@simone.com</div>
                     </div>
                     <div className={s.send}>
-                        <span>SEND US A NOTE</span>
+                        <h3 >SEND US A NOTE</h3>
                         <div className={s.name}>
                             <TextField id="standard-basic" label="Name" variant="standard" style={{width: '38%'}}/>
-                            <TextField id="standard-basic" label="Name" variant="standard" style={{width: '38%'}}/>
+                            <TextField id="standard-basic" label="Email" variant="standard" style={{width: '38%'}}/>
                         </div>
 
                         <div>

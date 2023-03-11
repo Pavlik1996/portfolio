@@ -9,7 +9,7 @@ export const About = () => {
     return (
         <div className={s.aboutBlock}>
             <Title title={'Know Me More'} />
-            <div className={sContainer.container}>
+            <div className={`${sContainer.container} ${s.container}`}>
                 <div className={s.aboutDescription}>
                     <h2 >I'm <span className={s.fullNameColor}>Pavel Khrysto</span>, a web Developer</h2>
                     <p className={s.textAbout}>

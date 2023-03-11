@@ -6,70 +6,85 @@
     display: flex;
     flex-direction: column;
     font-family: $fontFamily;
-}
-
-.container {
-    display: flex;
+    .container {
+        @media screen and (max-width: 1110px) {
+            flex-direction: column;
+            margin-bottom: 35px;
+        }
+        .aboutDescription {
+            max-width: 600px;
+            font-size: 22px;
+            color: $textColor;
+    
+            @media screen and (max-width: 1010px) {
+                display: flex;
+                flex-direction: column;
+        
+            }
+            .fullNameColor {
+                color: $primaryColor
+            }
+            .textAbout {
+                color: $textSeconfColor;
+                font-size: 15px;
+            }
+            
+        }
+        .aboutInfo {
+            color: $textSeconfColor;
+            font-size: 15px;
+            .separator {
+                height: 1px;
+                width: 250px;
+                background-color: rgb(214, 214, 214);
+                margin: 5px 0px 5px 0;
+            }
+            
+            .cv {
+                background-color: $primaryColor;
+                height: 50px;
+                width: 200px;
+                margin-top: 13px;
+                border-radius: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                cursor: pointer;
+                transition: .3s;
+            
+            }
+            
+            .cv:hover {
+                background-color: rgb(19, 168, 119);
+                transition: .3s;
+                box-shadow: 10px  10px 10px rgb(214, 214, 214);;
+            }
+            
+            
+        }
+        
+        .aboutInfo a {
+            color: $primaryColor;
+        }
+        
+        .aboutInfo p {
+            margin: 0;
+        }
+    }
+   
     
 }
 
-.textAbout {
-    color: $textSeconfColor;
-    font-size: 15px;
-}
 
-.fullNameColor {
-    color: $primaryColor
-}
 
-.aboutDescription {
-    max-width: 600px;
-    font-size: 22px;
-    color: $textColor;
-}
+
+
+
+
 
 .aboutDescription h2 {
     margin-top: 0;
 }
 
-.aboutInfo {
-    color: $textSeconfColor;
-    font-size: 15px;
-}
-
-.aboutInfo a {
-    color: $primaryColor;
-}
-
-.aboutInfo p {
-    margin: 0;
-}
-
-.separator {
-    height: 1px;
-    width: 250px;
-    background-color: rgb(214, 214, 214);
-    margin: 5px 0px 5px 0;
-}
-
-.cv {
-    background-color: $primaryColor;
-    height: 50px;
-    width: 200px;
-    margin-top: 13px;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    cursor: pointer;
-    transition: .3s;
-
-}
-
-.cv:hover {
-    background-color: rgb(19, 168, 119);
-    transition: .3s;
-    box-shadow: 10px  10px 10px rgb(214, 214, 214);;
-}
 
