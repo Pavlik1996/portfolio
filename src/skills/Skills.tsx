@@ -18,6 +18,7 @@ export const Skills = () => {
                     <Skill title={'REACT'} description={'description'} />
                     <Skill title={'REACT'} description={'description'} />
                     <Skill title={'REACT'} description={'description'} />
+                    <Skill title={'REACT'} description={'description'} />
                 </div>
             </div>
         </div>
