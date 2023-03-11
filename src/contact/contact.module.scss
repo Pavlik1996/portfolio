@@ -18,7 +18,7 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-    
+
 
       .send {
         width: 65%;
@@ -27,11 +27,41 @@
           margin: 15px 0px 15px 0px;
           display: flex;
           justify-content: space-between;
-          
+
         }
 
-      
+        .btn {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          margin-top: 15px;
+
+          .cv {
+            background-color: $primaryColor;
+            height: 50px;
+            width: 200px;
+            margin-top: 13px;
+            border-radius: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            cursor: pointer;
+            transition: .3s;
+
+          }
+
+          .cv:hover {
+            background-color: rgb(19, 168, 119);
+            transition: .3s;
+            box-shadow: 10px 10px 10px rgb(214, 214, 214);
+            ;
+          }
+        }
+
+
       }
+
     }
   }
 

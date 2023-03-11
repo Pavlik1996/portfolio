@@ -24,8 +24,8 @@ export const ContactNew = () => {
                     <div className={s.send}>
                         <h3 >SEND US A NOTE</h3>
                         <div className={s.name}>
-                            <TextField id="standard-basic" label="Name" variant="standard" style={{width: '38%'}}/>
-                            <TextField id="standard-basic" label="Email" variant="standard" style={{width: '38%'}}/>
+                            <TextField id="standard-basic" label="Name" variant="standard" style={{ width: '38%' }} />
+                            <TextField id="standard-basic" label="Email" variant="standard" style={{ width: '38%' }} />
                         </div>
 
                         <div>
@@ -37,6 +37,9 @@ export const ContactNew = () => {
                                 fullWidth
                                 variant="standard"
                             />
+                        </div>
+                        <div className={s.btn}>
+                            <div className={s.cv}>Send</div>
                         </div>
                     </div>
                 </div>
