@@ -23,8 +23,8 @@ export const Works = () => {
             <div className={`${sContainer.container} ${s.worksContainer}`}>
                 <Title title={'My works'} />
                 <div className={s.works}>
-                    <Work style={FrontEnd} title={'Todo'} description={'loresadklfsdlfns dffklnsdf nsd f v'} />
-                    <Work style={FrontEnd} title={'Sotial network'} description={'desTwoiodsopgnd g sd'} />
+                    <Work style={FrontEnd} title={'Todo'} description={'todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo todo '} />
+                    <Work style={FrontEnd} title={'Sotial network'} description={'Sotial network Sotial network Sotial network Sotial network Sotial network Sotial network Sotial network Sotial network Sotial network Sotial network Sotial network Sot'} />
                 </div>
             </div>
         </div>

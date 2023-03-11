@@ -9,6 +9,7 @@ import {Contact} from "./contact/contact";
 import {Footer} from "./footer/footer";
 import { About } from './about/About';
 import { NSkills } from './nskills/NSkills';
+import { ContactNew } from './contact/ContactNew';
 
 function App() {
     return (
@@ -19,8 +20,9 @@ function App() {
             {/* <Skills/> */}
             <NSkills/>
             <Works/>
-            <Remote/>
-            <Contact/>
+            {/* <Remote/> */}
+            {/* <Contact/> */}
+            <ContactNew/>
             <Footer/>
         </div>
     );

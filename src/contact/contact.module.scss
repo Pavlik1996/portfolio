@@ -1,0 +1,36 @@
+@import '../common/styles/sass/variables.scss';
+
+.contact {
+  min-height: 50vh;
+  background-color: $bgSecondColor;
+  font-family: $fontFamily;
+  display: flex;
+
+  .container {
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .get {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .send {
+        width: 65%;
+
+        .name {
+          margin: 15px 0px 15px 0px;
+          display: flex;
+          justify-content: space-between;
+        }
+
+      
+      }
+    }
+  }
+
+}
