@@ -24,7 +24,9 @@ export const About = () => {
                     <p><b>Age:</b>  27</p>
                     <div className={s.separator}></div>
                     <p><b>From:</b>  Belarus, Minsk</p>
-                    <div className={s.cv}>Download CV</div>
+                    <div className={s.button}>
+                        <div className={s.cv}>Download CV</div>
+                    </div>
                 </div>
             </div>
         </div>

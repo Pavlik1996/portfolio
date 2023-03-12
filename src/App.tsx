@@ -5,7 +5,6 @@ import {Main} from "./main/Main";
 import {Skills} from "./skills/Skills";
 import {Works} from "./works/Works";
 import {Remote} from "./remote_work/remote";
-import {Contact} from "./contact/contact";
 import { About } from './about/About';
 import { NSkills } from './nskills/NSkills';
 import { ContactNew } from './contact/ContactNew';
