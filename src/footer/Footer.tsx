@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className={s.footerBlock}>
       <div className={s.container}>
         <div>
-          Copyright © 2023
+          Copyright © 2023&nbsp;
           <span>Pavel Khrysto</span>
           . All Rights Reserved.
         </div>

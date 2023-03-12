@@ -11,7 +11,7 @@ export const About = () => {
             <Title title={'Know Me More'} />
             <div className={`${sContainer.container} ${s.container}`}>
                 <div className={s.aboutDescription}>
-                    <h2 >I'm <span className={s.fullNameColor}>Pavel Khrysto</span>, a web Developer</h2>
+                    <div>I'm <span className={s.fullNameColor}><b>Pavel Khrysto</b></span>, a Front-end Developer</div>
                     <p className={s.textAbout}>
                         {textAbout}
                     </p>

@@ -1,7 +1,7 @@
 @import '../common/styles/sass/variables.scss';
 
 .aboutBlock {
-    min-height: 50vh;
+    min-height: 45vh;
     background-color: $bgColor;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
         }
         .aboutDescription {
             max-width: 600px;
-            font-size: 22px;
+            font-size: 38px;
             color: $textColor;
     
             @media screen and (max-width: 1010px) {
@@ -22,7 +22,8 @@
         
             }
             .fullNameColor {
-                color: $primaryColor
+                color: $primaryColor;
+                font-weight: bold;
             }
             .textAbout {
                 color: $textSeconfColor;
