@@ -1,0 +1,18 @@
+@import '../common/styles/sass/variables.scss';
+
+.footerBlock {
+    min-height: 15vh;
+    background-color: $bgColor;
+    display: flex;
+    justify-content: center;
+    font-family: $fontFamily;
+    .container {
+        width: 80%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .container span {
+        color: $primaryColor;
+    }
+}

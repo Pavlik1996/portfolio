@@ -39,7 +39,7 @@ export const ContactNew = () => {
                             />
                         </div>
                         <div className={s.btn}>
-                            <div className={s.cv}>Send</div>
+                            <div className={s.cv}>Send Message</div>
                         </div>
                     </div>
                 </div>

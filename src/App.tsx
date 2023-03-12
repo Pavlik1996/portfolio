@@ -6,22 +6,18 @@ import {Skills} from "./skills/Skills";
 import {Works} from "./works/Works";
 import {Remote} from "./remote_work/remote";
 import {Contact} from "./contact/contact";
-import {Footer} from "./footer/footer";
 import { About } from './about/About';
 import { NSkills } from './nskills/NSkills';
 import { ContactNew } from './contact/ContactNew';
+import { Footer } from './footer/Footer';
 
 function App() {
     return (
         <div className="App">
-            {/* <Header/> */}
             <Main/>
             <About/>
-            {/* <Skills/> */}
             <NSkills/>
             <Works/>
-            {/* <Remote/> */}
-            {/* <Contact/> */}
             <ContactNew/>
             <Footer/>
         </div>
