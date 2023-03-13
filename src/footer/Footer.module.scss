@@ -6,13 +6,21 @@
     display: flex;
     justify-content: center;
     font-family: $fontFamily;
+
     .container {
         width: 80%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: space-between;
         align-items: center;
     }
+
     .container span {
         color: $primaryColor;
+    }
+
+
+    .icon {
+        margin: 0 15px 0px 15px;
+        width: 37px;
     }
 }
