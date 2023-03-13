@@ -12,15 +12,20 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+
+        .icons {
+            @media screen and (max-width: 522px) {
+                margin-top: 25px
+            }
+            .icon {
+                margin: 0 15px 0px 15px;
+                width: 37px;
+        
+            }
+        }
     }
 
-    .container span {
-        color: $primaryColor;
-    }
 
 
-    .icon {
-        margin: 0 15px 0px 15px;
-        width: 37px;
-    }
+    
 }

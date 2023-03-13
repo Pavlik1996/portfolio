@@ -20,7 +20,7 @@ export const Footer = () => {
           <span>Pavel Khrysto</span>
           . All Rights Reserved.
         </div>
-        <div>
+        <div className={s.icons}>
           <a href="https://www.linkedin.com/in/pavel-khrysto/" target="_blank">
             <img src={linkedin} alt="linkedin" className={s.icon} />
           </a>
