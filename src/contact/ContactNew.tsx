@@ -2,9 +2,6 @@ import s from './contact.module.scss'
 import sContainer from '../common/styles/Container.module.css'
 import { Title } from '../common/component/title/Title'
 import TextField from '@mui/material/TextField';
-import PhoneIcon from '@mui/icons-material/Phone';
-import { Margin } from '@mui/icons-material';
-
 
 
 export const ContactNew = () => {
@@ -25,12 +22,9 @@ export const ContactNew = () => {
                     <div className={s.send}>
                         <h3 >SEND US A NOTE</h3>
                         <div className={s.name}>
-                            <TextField id="standard-basic" label="Name" variant="standard" style={{ width: '38%', marginBottom: '15px' }} />
-                       
-                            <TextField id="standard-basic" label="Email" variant="standard" style={{ width: '38%' }} />
-                     
+                            <TextField id="standard-basic" label="Name" variant="standard" style={{ marginBottom: '15px' }} />
+                            <TextField id="standard-basic" label="Email" variant="standard" />
                         </div>
-                        
                         <div>
                             <TextField
                                 id="standard-multiline-static"

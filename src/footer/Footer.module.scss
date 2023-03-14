@@ -13,9 +13,15 @@
         justify-content: space-between;
         align-items: center;
 
+        @media screen and (max-width: 522px) {
+            margin-top: 25px;
+            display: block;
+        }
+
         .icons {
             @media screen and (max-width: 522px) {
-                margin-top: 25px
+                margin-top: 25px;
+                margin-bottom: 25px;
             }
             .icon {
                 margin: 0 15px 0px 15px;

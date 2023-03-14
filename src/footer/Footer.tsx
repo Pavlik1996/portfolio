@@ -1,12 +1,10 @@
 import s from './Footer.module.scss'
-import sContainer from '../common/styles/Container.module.css'
 import linkedin from '../assets/images/icon/li.png'
 import github from '../assets/images/icon/gi.png'
 import facebook from '../assets/images/icon/fa.png'
 import instagram from '../assets/images/icon/in.png'
 import telegram from '../assets/images/icon/tg.png'
 import twitter from '../assets/images/icon/tw.png'
-import { Icon } from './Icon'
 
 
 export const Footer = () => {
