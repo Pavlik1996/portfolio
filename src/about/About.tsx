@@ -4,7 +4,7 @@ import { Title } from '../common/component/title/Title'
 
 export const About = () => {
 
-    const textAbout = "I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team. when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+    const textAbout = "I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team."
 
     return (
         <div className={s.aboutBlock}>
