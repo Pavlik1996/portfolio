@@ -2,6 +2,7 @@ import { NSkill } from './nskill/nskill'
 import s from './NSkills.module.scss'
 import sContainer from '../common/styles/Container.module.css'
 import { Title } from '../common/component/title/Title'
+import {Slide} from "react-awesome-reveal";
 type ArrType = {name: string, precent: number}   
 
 
@@ -21,20 +22,23 @@ export const NSkills = () => {
     ]
 
     return (
-        <div className={s.skillsBlock}>
-        <div className={`${sContainer.container} ${s.skillsContainer}`}>
-            <Title title={'Skills'} />
-            <div className={s.skills}>
-              {
-                arr.map(el => {
-                    return (
-                        <NSkill nameSkill={el.name} percent={el.precent}/>
-                    )
-                })
-              }
+        <Slide>
+            <div className={s.skillsBlock}>
+                <div className={`${sContainer.container} ${s.skillsContainer}`}>
+                    <Title title={'Skills'} />
+                    <div className={s.skills}>
+                        {
+                            arr.map(el => {
+                                return (
+                                    <NSkill nameSkill={el.name} percent={el.precent}/>
+                                )
+                            })
+                        }
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
+        </Slide>
+
 
     )
 }
