@@ -29,6 +29,9 @@ export const Main = () => {
 
                     <div className={s.welcome}>
                         <ReactTypingEffect
+                            typingDelay={1000}
+                            eraseDelay={1000}
+                            cursor={'_'}
                             text={'Welcome'}
 
                         />

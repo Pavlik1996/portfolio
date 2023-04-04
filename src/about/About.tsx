@@ -10,10 +10,8 @@ export const About = () => {
     const textAbout = "I help you build brand for your business at an affordable price. Thousands of clients have procured exceptional results while working with our dedicated team."
 
     return (
-        <div className={s.aboutBlock}>
-            <Slide direction={'down'}>
+        <div className={s.aboutBlock} id={'about'}>
                 <Title title={'Know Me More'} />
-            </Slide>
             <div className={`${sContainer.container} ${s.container}`}>
                 <Slide direction={'left'}>
                     <div className={s.aboutDescription}>

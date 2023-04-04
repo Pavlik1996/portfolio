@@ -20,7 +20,7 @@ export const Works = () => {
 
 
     return (
-        <div className={s.worksBlock}>
+        <div className={s.worksBlock} id={'works'}>
             <div className={`${sContainer.container} ${s.worksContainer}`}>
                 <Title title={'My works'}/>
                 <div className={s.works}>

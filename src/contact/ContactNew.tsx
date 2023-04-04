@@ -7,7 +7,7 @@ import {Slide} from "react-awesome-reveal";
 
 export const ContactNew = () => {
     return (
-        <div className={s.contact}>
+        <div className={s.contact} id={'contact'}>
             <div className={`${sContainer.container} ${s.container}`}>
                 <Title title={'Get in Touch'} />
                 <div className={s.get}>

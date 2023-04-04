@@ -7,12 +7,12 @@ type PropsType = {
 
 export const Title= (props: PropsType) => {
     return (
-        <Slide direction={'down'}>
+        // <Slide direction={'down'}>
             <div className={s.title}>
                 <h2>{props.title}</h2>
                 <div className={s.line}></div>
             </div>
-        </Slide>
+        // </Slide>
 
     )
 }
