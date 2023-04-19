@@ -3,12 +3,18 @@
 
 .nav {
     width: 400px;
-    display: flex;
-    justify-content: space-between;
+    display: flex !important;
+    justify-content: space-around;
     font-family: $fontFamily;
     font-size: 15px;
     user-select: none;
-
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .5;
+    color: white;
 }
 
 a {
