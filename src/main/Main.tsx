@@ -19,9 +19,9 @@ export const Main = () => {
 
             <div className={s.mainBlock} style={backgroundImage}>
 
-                    {/* <div className={s.nav}>
-                       <Nav/>
-                    </div> */}
+                    <div className={s.nav}>
+                        <Nav/>
+                    </div>
 
 
                 <div className={s.container}>
