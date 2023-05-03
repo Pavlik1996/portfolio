@@ -1,23 +1,39 @@
 @import '../common/styles/sass/variables.scss';
 
+.wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  background-color: #4c4d4d;
+  opacity: .5;
+
+}
 
 .nav {
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
-    font-family: $fontFamily;
-    font-size: 15px;
-    user-select: none;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+  font-family: $fontFamily;
+  font-size: 15px;
+  user-select: none;
+  color: #fff;
+}
 
+.active {
+  text-decoration: none;
+  color: $primaryColor;
+  transition: all .3s;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
-    transition: all .3s;
+  text-decoration: none;
+  color: #fff;
+  transition: all .3s;
 }
 
 a:hover {
-    color: $primaryColor;
-    transition: all .3s;
+  color: $primaryColor;
+  transition: all .3s;
 }

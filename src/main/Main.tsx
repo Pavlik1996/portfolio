@@ -4,7 +4,7 @@ import mainPhoto from '../assets/images/catmain.jpg'
 import {Nav} from '../nav/Nav';
 
 import {Rysing} from "./fsdsfd";
-import {Slide, Zoom} from "react-awesome-reveal";
+import {Zoom} from "react-awesome-reveal";
 import ReactTypingEffect from "react-typing-effect";
 
 export const Main = () => {
@@ -18,12 +18,6 @@ export const Main = () => {
         <div>
 
             <div className={s.mainBlock} style={backgroundImage}>
-
-                    <div className={s.nav}>
-                        <Nav/>
-                    </div>
-
-
                 <div className={s.container}>
                     <Rysing/>
 
