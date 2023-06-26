@@ -50,12 +50,10 @@ export const Contact = () => {
 				<div className={s.get}>
 					<Slide>
 						<div>
-							<h3>ADDRESS111</h3>
-							<span>4thasasdasd Floor, Plot No.22,</span>
-							<div>145 Murphy Canyon Rd.</div>
-							<div>Sans Diego CA 2028</div>
-							<div>(060) 444 434 444</div>
-							<div>(060) 555 545 555</div>
+							<h3>ADDRESS</h3>
+							<div>Minsk, Bealarus / Poland, Warszawa</div>
+							<div>(+375 29) 245 79 80</div>
+							<div>(+48 57) 57 43 418</div>
 							<div>chat@simone.com</div>
 						</div>
 					</Slide>
