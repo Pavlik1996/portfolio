@@ -54,7 +54,7 @@ export const Contact = () => {
 							<div>Minsk, Bealarus / Poland, Warszawa</div>
 							<div>(+375 29) 245 79 80</div>
 							<div>(+48 57) 57 43 418</div>
-							<div>chat@simone.com</div>
+							<div>miki2012miki@gmail.com</div>
 						</div>
 					</Slide>
 					<Slide direction={'right'}>
